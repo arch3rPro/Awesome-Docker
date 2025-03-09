@@ -80,6 +80,80 @@ This is a collection of Docker resources designed to help developers, operators,
 
 ## Application Recommendation
 
+### 🧠 AI Applications
+
+#### 💬 LLM Client
+
+| name               | type                  | Application Introduction                                     | Open source address                                          | GitHub Stars | Docker Pulls |
+| ------------------ | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ | ------------ |
+| Lobe Chat          | Private deployment    | An open source, modern AI chat framework. Supports multiple AI providers | [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat)    | 57.4k        | 1M+          |
+| Be                 | Model Run             | A framework for running large language models such as Llama 2 locally | [to be/to be](https://github.com/ollama/ollama)              | 42.3k        | 10M+         |
+| Open WebUI         | Interactive interface | A scalable, feature-rich, and user-friendly self-hosted AI platform designed to run completely offline | [open-webui/open-webui](https://github.com/open-webui/open-webui) | 82k          | 10M+         |
+| LocalAI            | Local Inference       | Locally running AI server, compatible with OpenAI API, supports multiple models | [go-skynet/LocalAI](https://github.com/go-skynet/LocalAI)    | 15.2k        | 20M+         |
+| LM Studio          | Model Management      | A local large language model exploration and reasoning tool that supports a variety of open source models | [lmstudio-ai/lmstudio](https://github.com/lmstudio-ai/lmstudio) | 8.5k         | 5M+          |
+| Text Generation UI | Interactive interface | Web UI for large language models, supporting multiple models and parameter adjustments | [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) | 28.7k        | 15M+         |
+| LangChain          | Development Framework | LLM application development framework, supporting chain calls and tool integration | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 72.5k        | 25M+         |
+| Flowise            | Workflow Tools        | Drag-and-drop LangChain application building tool, no coding required | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise)    | 18.9k        | 10M+         |
+| LlamaIndex         | Data Frame            | Dataframes that connect custom data to large language models | [jerryjliu/llama_index](https://github.com/jerryjliu/llama_index) | 25.6k        | 8M+          |
+| Jan                | Local Assistant       | A locally-run AI assistant that supports multiple open source models | [janhq/jan](https://github.com/janhq/jan)                    | 12.8k        | 5M+          |
+| PrivateGPT         | Private deployment    | A framework for interacting with LLM using private documents to protect data privacy | [imartinez/privateGPT](https://github.com/imartinez/privateGPT) | 45.2k        | 12M+         |
+
+#### 🤖 Machine Learning
+
+| name               | type                  | Application Introduction                                     | Open source address                                          | GitHub Stars | Docker Pulls |
+| ------------------ | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ | ------------ |
+| MLflow             | Model Management      | An open source machine learning lifecycle platform that supports experiment tracking and model deployment | [mlflow/mlflow](https://github.com/mlflow/mlflow)            | 15.8k        | 100M+        |
+| Kubeflow           | ML Platform           | A Kubernetes-based machine learning toolkit for model development and deployment | [kubeflow/kubeflow](https://github.com/kubeflow/kubeflow)    | 13.2k        | 50M+         |
+| TensorFlow Serving | Model Serving         | TensorFlow's official model deployment system supports model version management | [tensorflow/serving](https://github.com/tensorflow/serving)  | 5.8k         | 500M+        |
+| Seldon Core        | Inference Engine      | Production-grade machine learning model deployment platform, supporting multiple frameworks | [SeldonIO/seldon-core](https://github.com/SeldonIO/seldon-core) | 3.8k         | 20M+         |
+| BentoML            | Model deployment      | A framework for building and deploying machine learning services | [bentoml/BentoML](https://github.com/bentoml/BentoML)        | 5.2k         | 10M+         |
+| Polyaxon           | ML Platform           | Machine learning experiment management and model deployment platform | [polyaxon/polyaxon](https://github.com/polyaxon/polyaxon)    | 3.5k         | 5M+          |
+| DVC                | Version Control       | Data version control and machine learning experiment management tools | [iterative/dvc](https://github.com/iterative/dvc)            | 12.2k        | 15M+         |
+| Ray                | Distributed Framework | A framework for building distributed machine learning applications | [ray-project/ray](https://github.com/ray-project/ray)        | 28.5k        | 50M+         |
+| Feast              | Feature storage       | Machine learning feature storage, supporting online and offline feature management | [feast-dev/feast](https://github.com/feast-dev/feast)        | 4.2k         | 5M+          |
+
+#### 🗣️ Natural Language Processing
+
+| name         | type                | Application Introduction                                     | Open source address                                          | GitHub Stars | Docker Pulls |
+| ------------ | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ | ------------ |
+| Hugging Face | NLP Platform        | The most popular natural language processing model library and platform, providing thousands of pre-trained models | [huggingface/transformers](https://github.com/huggingface/transformers) | 115k         | 200M+        |
+| spaCy        | NLP Framework       | Industrial-grade natural language processing library, supporting multiple languages and tasks | [explosion/spaCy](https://github.com/explosion/spaCy)        | 27.5k        | 100M+        |
+| NLTK         | NLP Toolkit         | A classic Python library for natural language processing, providing a variety of text processing functions | [nltk/nltk](https://github.com/nltk/nltk)                    | 12.8k        | 50M+         |
+| Rasa         | Dialogue System     | An open source conversational AI framework for building chatbots and voice assistants | [RasaHQ/rasa](https://github.com/RasaHQ/rasa)                | 16.5k        | 100M+        |
+| Gensim       | Text Analysis       | Topic modeling and document similarity analysis library suitable for large-scale text processing | [RaRe-Technologies/gensim](https://github.com/RaRe-Technologies/gensim) | 14.2k        | 20M+         |
+| FastText     | Text Classification | Efficient text classification and word embedding library developed by Facebook | [facebookresearch/fastText](https://github.com/facebookresearch/fastText) | 24.8k        | 10M+         |
+| StanfordNLP  | NLP Toolkit         | Stanford University developed a natural language processing toolkit that supports multiple languages | [stanfordnlp/stanza](https://github.com/stanfordnlp/stanza)  | 6.8k         | 5M+          |
+| AllenNLP     | NLP Platform        | A natural language processing research library based on PyTorch | [allenai/allennlp](https://github.com/allenai/allennlp)      | 11.5k        | 10M+         |
+| Flair        | NLP Framework       | A simple and easy-to-use NLP framework focusing on sequence labeling and text classification | [flairNLP/flair](https://github.com/flairNLP/flair)          | 13.2k        | 5M+          |
+
+#### 👁️ Computer Vision
+
+| name          | type             | Application Introduction                                     | Open source address                                          | GitHub Stars | Docker Pulls |
+| ------------- | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ | ------------ |
+| OpenCV        | Visual Library   | The most popular computer vision library, supporting a variety of image processing and vision algorithms | [opencv/opencv](https://github.com/opencv/opencv)            | 72.5k        | 500M+        |
+| Detectron2    | Object Detection | Facebook's object detection and segmentation framework, based on PyTorch | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | 27.8k        | 50M+         |
+| YOLO          | Object Detection | Real-time target detection system with fast speed and high accuracy | [ultralytics/yolov5](https://github.com/ultralytics/yolov5)  | 45.2k        | 100M+        |
+| MMDetection   | Vision Toolbox   | OpenMMLab developed a target detection toolbox that supports multiple detection algorithms | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | 25.8k        | 20M+         |
+| DeepLabCut    | Pose Estimation  | A deep learning toolbox for animal pose estimation           | [DeepLabCut/DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) | 3.8k         | 5M+          |
+| EasyOCR       | Text Recognition | OCR system supporting more than 80 languages, easy to use    | [JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR)      | 19.5k        | 30M+         |
+| Tesseract OCR | Text Recognition | OCR engine developed by Google, supports multiple languages and formats | [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | 52.8k        | 200M+        |
+| Deepface      | Face Analysis    | A lightweight face recognition and analysis library that supports a variety of deep learning models | [Serengil/deepface](https://github.com/serengil/deepface)    | 8.5k         | 10M+         |
+| ImageAI       | Vision AI        | An easy-to-use computer vision Python library that supports image prediction and detection | [Olafenwa Moses/ImageAI](https://github.com/OlafenwaMoses/ImageAI) | 7.8k         | 5M+          |
+
+#### 🔧 AI Development Tools
+
+| name             | type                     | Application Introduction                                     | Open source address                                          | GitHub Stars | Docker Pulls |
+| ---------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ | ------------ |
+| TensorFlow       | Deep Learning Frameworks | Google's end-to-end open source machine learning platform    | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 178k         | 1B+          |
+| PyTorch          | Deep Learning Frameworks | Flexible deep learning framework developed by Facebook, research-friendly | [pytorch/pytorch](https://github.com/pytorch/pytorch)        | 72.5k        | 500M+        |
+| Jupyter          | Interactive Development  | An interactive computing environment that supports multiple programming languages | [jupyter/docker-stacks](https://github.com/jupyter/docker-stacks) | 7.8k         | 1B+          |
+| Streamlit        | Application Development  | A framework for quickly building and sharing data science and machine learning applications | [streamlit/streamlit](https://github.com/streamlit/streamlit) | 28.5k        | 100M+        |
+| Gradio           | Interface construction   | A Python library for quickly creating user interfaces for machine learning models | [gradio-app/gradio](https://github.com/gradio-app/gradio)    | 21.2k        | 50M+         |
+| ONNX             | Model exchange           | Open neural network exchange format, supporting multi-framework model conversion | [onnx/onnx](https://github.com/onnx/onnx)                    | 16.8k        | 100M+        |
+| TensorRT         | Inference Optimization   | NVIDIA developed a high-performance deep learning inference optimizer | [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)        | 8.5k         | 200M+        |
+| Weights & Biases | Experiment tracking      | Machine learning experiment tracking and visualization tool  | [wandb/wandb](https://github.com/wandb/wandb)                | 6.2k         | 50M+         |
+| DVC              | Data version control     | Data and model version control system for machine learning projects | [iterative/dvc](https://github.com/iterative/dvc)            | 12.2k        | 15M+         |
+
 ### 📽️ Media Management
 
 #### 🎬 Video Server
@@ -379,64 +453,6 @@ This is a collection of Docker resources designed to help developers, operators,
 | Filebeat      | Log Collection         | A lightweight log file collector, part of the Elastic Beat family | [elastic/beats](https://github.com/elastic/beats)            | 11.8k        | 300M+        |
 | SigNoz        | Observability Platform | An open source application performance monitoring and observability platform, an open source alternative to Datadog | [SigNoz/signoz](https://github.com/SigNoz/signoz)            | 15.2k        | 5M+          |
 | GoAccess      | Log analysis           | Real-time web log analyzer and interactive viewer, supporting terminal and browser interfaces | [allinurl/goaccess](https://github.com/allinurl/goaccess)    | 16.4k        | 10M+         |
-
-### 🧠 AI Application
-
-#### 🤖 Machine Learning
-
-| name               | type                  | Application Introduction                                     | Open source address                                          | GitHub Stars | Docker Pulls |
-| ------------------ | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ | ------------ |
-| MLflow             | Model Management      | An open source machine learning lifecycle platform that supports experiment tracking and model deployment | [mlflow/mlflow](https://github.com/mlflow/mlflow)            | 15.8k        | 100M+        |
-| Kubeflow           | ML Platform           | A Kubernetes-based machine learning toolkit for model development and deployment | [kubeflow/kubeflow](https://github.com/kubeflow/kubeflow)    | 13.2k        | 50M+         |
-| TensorFlow Serving | Model Serving         | TensorFlow's official model deployment system supports model version management | [tensorflow/serving](https://github.com/tensorflow/serving)  | 5.8k         | 500M+        |
-| Seldon Core        | Inference Engine      | Production-grade machine learning model deployment platform, supporting multiple frameworks | [SeldonIO/seldon-core](https://github.com/SeldonIO/seldon-core) | 3.8k         | 20M+         |
-| BentoML            | Model deployment      | A framework for building and deploying machine learning services | [bentoml/BentoML](https://github.com/bentoml/BentoML)        | 5.2k         | 10M+         |
-| Polyaxon           | ML Platform           | Machine learning experiment management and model deployment platform | [polyaxon/polyaxon](https://github.com/polyaxon/polyaxon)    | 3.5k         | 5M+          |
-| DVC                | Version Control       | Data version control and machine learning experiment management tools | [iterative/dvc](https://github.com/iterative/dvc)            | 12.2k        | 15M+         |
-| Ray                | Distributed Framework | A framework for building distributed machine learning applications | [ray-project/ray](https://github.com/ray-project/ray)        | 28.5k        | 50M+         |
-| Feast              | Feature storage       | Machine learning feature storage, supporting online and offline feature management | [feast-dev/feast](https://github.com/feast-dev/feast)        | 4.2k         | 5M+          |
-
-#### 🗣️ Natural Language Processing
-
-| name         | type                | Application Introduction                                     | Open source address                                          | GitHub Stars | Docker Pulls |
-| ------------ | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ | ------------ |
-| Hugging Face | NLP Platform        | The most popular natural language processing model library and platform, providing thousands of pre-trained models | [huggingface/transformers](https://github.com/huggingface/transformers) | 115k         | 200M+        |
-| spaCy        | NLP Framework       | Industrial-grade natural language processing library, supporting multiple languages and tasks | [explosion/spaCy](https://github.com/explosion/spaCy)        | 27.5k        | 100M+        |
-| NLTK         | NLP Toolkit         | A classic Python library for natural language processing, providing a variety of text processing functions | [nltk/nltk](https://github.com/nltk/nltk)                    | 12.8k        | 50M+         |
-| Rasa         | Dialogue System     | An open source conversational AI framework for building chatbots and voice assistants | [RasaHQ/rasa](https://github.com/RasaHQ/rasa)                | 16.5k        | 100M+        |
-| Gensim       | Text Analysis       | Topic modeling and document similarity analysis library suitable for large-scale text processing | [RaRe-Technologies/gensim](https://github.com/RaRe-Technologies/gensim) | 14.2k        | 20M+         |
-| FastText     | Text Classification | Efficient text classification and word embedding library developed by Facebook | [facebookresearch/fastText](https://github.com/facebookresearch/fastText) | 24.8k        | 10M+         |
-| StanfordNLP  | NLP Toolkit         | Stanford University developed a natural language processing toolkit that supports multiple languages | [stanfordnlp/stanza](https://github.com/stanfordnlp/stanza)  | 6.8k         | 5M+          |
-| AllenNLP     | NLP Platform        | A natural language processing research library based on PyTorch | [allenai/allennlp](https://github.com/allenai/allennlp)      | 11.5k        | 10M+         |
-| Flair        | NLP Framework       | A simple and easy-to-use NLP framework focusing on sequence labeling and text classification | [flairNLP/flair](https://github.com/flairNLP/flair)          | 13.2k        | 5M+          |
-
-#### 👁️ Computer Vision
-
-| name          | type             | Application Introduction                                     | Open source address                                          | GitHub Stars | Docker Pulls |
-| ------------- | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ | ------------ |
-| OpenCV        | Visual Library   | The most popular computer vision library, supporting a variety of image processing and vision algorithms | [opencv/opencv](https://github.com/opencv/opencv)            | 72.5k        | 500M+        |
-| Detectron2    | Object Detection | Facebook's object detection and segmentation framework, based on PyTorch | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | 27.8k        | 50M+         |
-| YOLO          | Object Detection | Real-time target detection system with fast speed and high accuracy | [ultralytics/yolov5](https://github.com/ultralytics/yolov5)  | 45.2k        | 100M+        |
-| MMDetection   | Vision Toolbox   | OpenMMLab developed a target detection toolbox that supports multiple detection algorithms | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | 25.8k        | 20M+         |
-| DeepLabCut    | Pose Estimation  | A deep learning toolbox for animal pose estimation           | [DeepLabCut/DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) | 3.8k         | 5M+          |
-| EasyOCR       | Text Recognition | OCR system supporting more than 80 languages, easy to use    | [JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR)      | 19.5k        | 30M+         |
-| Tesseract OCR | Text Recognition | OCR engine developed by Google, supports multiple languages and formats | [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | 52.8k        | 200M+        |
-| Deepface      | Face Analysis    | A lightweight face recognition and analysis library that supports a variety of deep learning models | [Serengil/deepface](https://github.com/serengil/deepface)    | 8.5k         | 10M+         |
-| ImageAI       | Vision AI        | An easy-to-use computer vision Python library that supports image prediction and detection | [Olafenwa Moses/ImageAI](https://github.com/OlafenwaMoses/ImageAI) | 7.8k         | 5M+          |
-
-#### 🔧 AI Development Tools
-
-| name             | type                     | Application Introduction                                     | Open source address                                          | GitHub Stars | Docker Pulls |
-| ---------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ | ------------ |
-| TensorFlow       | Deep Learning Frameworks | Google's end-to-end open source machine learning platform    | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 178k         | 1B+          |
-| PyTorch          | Deep Learning Frameworks | Flexible deep learning framework developed by Facebook, research-friendly | [pytorch/pytorch](https://github.com/pytorch/pytorch)        | 72.5k        | 500M+        |
-| Jupyter          | Interactive Development  | An interactive computing environment that supports multiple programming languages | [jupyter/docker-stacks](https://github.com/jupyter/docker-stacks) | 7.8k         | 1B+          |
-| Streamlit        | Application Development  | A framework for quickly building and sharing data science and machine learning applications | [streamlit/streamlit](https://github.com/streamlit/streamlit) | 28.5k        | 100M+        |
-| Gradio           | Interface construction   | A Python library for quickly creating user interfaces for machine learning models | [gradio-app/gradio](https://github.com/gradio-app/gradio)    | 21.2k        | 50M+         |
-| ONNX             | Model exchange           | Open neural network exchange format, supporting multi-framework model conversion | [onnx/onnx](https://github.com/onnx/onnx)                    | 16.8k        | 100M+        |
-| TensorRT         | Inference Optimization   | NVIDIA developed a high-performance deep learning inference optimizer | [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)        | 8.5k         | 200M+        |
-| Weights & Biases | Experiment tracking      | Machine learning experiment tracking and visualization tool  | [wandb/wandb](https://github.com/wandb/wandb)                | 6.2k         | 50M+         |
-| DVC              | Data version control     | Data and model version control system for machine learning projects | [iterative/dvc](https://github.com/iterative/dvc)            | 12.2k        | 15M+         |
 
 ### 📝 Document Collaboration
 
