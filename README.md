@@ -80,6 +80,79 @@
 
 ## 应用推荐
 
+### 🧠 AI应用
+
+#### 💬 LLM客户端
+
+| 名称 | 类型 | 应用介绍 | 开源地址 | GitHub Stars | Docker Pulls |
+|------|------|----------|-----------|--------------|---------------|
+| Lobe Chat | 私有部署 | 一个开源、现代设计的 AI 聊天框架。支持多 AI 提供商 | [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) | 57.4k | 1M+ |
+| Ollama | 模型运行 | 在本地运行Llama 2等大型语言模型的框架 | [ollama/ollama](https://github.com/ollama/ollama) | 42.3k | 10M+ |
+| Open WebUI | 交互界面 | 一个可扩展、功能丰富且用户友好的自托管 AI 平台，旨在完全离线运行 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | 82k | 10M+ |
+| LocalAI | 本地推理 | 本地运行的AI服务器，兼容OpenAI API，支持多种模型 | [go-skynet/LocalAI](https://github.com/go-skynet/LocalAI) | 15.2k | 20M+ |
+| LM Studio | 模型管理 | 本地大语言模型探索和推理工具，支持多种开源模型 | [lmstudio-ai/lmstudio](https://github.com/lmstudio-ai/lmstudio) | 8.5k | 5M+ |
+| Text Generation UI | 交互界面 | 大型语言模型的Web UI，支持多种模型和参数调整 | [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) | 28.7k | 15M+ |
+| LangChain | 开发框架 | LLM应用开发框架，支持链式调用和工具集成 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 72.5k | 25M+ |
+| Flowise | 工作流工具 | 拖拽式LangChain应用构建工具，无需编码 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | 18.9k | 10M+ |
+| LlamaIndex | 数据框架 | 连接自定义数据与大型语言模型的数据框架 | [jerryjliu/llama_index](https://github.com/jerryjliu/llama_index) | 25.6k | 8M+ |
+| Jan | 本地助手 | 本地运行的AI助手，支持多种开源模型 | [janhq/jan](https://github.com/janhq/jan) | 12.8k | 5M+ |
+| PrivateGPT | 私有部署 | 使用私有文档与LLM交互的框架，保护数据隐私 | [imartinez/privateGPT](https://github.com/imartinez/privateGPT) | 45.2k | 12M+ |
+#### 🤖 机器学习
+
+| 名称 | 类型 | 应用介绍 | 开源地址 | GitHub Stars | Docker Pulls |
+|------|------|----------|-----------|--------------|---------------|
+| MLflow | 模型管理 | 开源的机器学习生命周期平台，支持实验跟踪和模型部署 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | 15.8k | 100M+ |
+| Kubeflow | ML平台 | 基于Kubernetes的机器学习工具包，用于模型开发和部署 | [kubeflow/kubeflow](https://github.com/kubeflow/kubeflow) | 13.2k | 50M+ |
+| TensorFlow Serving | 模型服务 | TensorFlow官方的模型部署系统，支持模型版本管理 | [tensorflow/serving](https://github.com/tensorflow/serving) | 5.8k | 500M+ |
+| Seldon Core | 推理引擎 | 生产级机器学习模型部署平台，支持多种框架 | [SeldonIO/seldon-core](https://github.com/SeldonIO/seldon-core) | 3.8k | 20M+ |
+| BentoML | 模型部署 | 用于构建和部署机器学习服务的框架 | [bentoml/BentoML](https://github.com/bentoml/BentoML) | 5.2k | 10M+ |
+| Polyaxon | ML平台 | 机器学习实验管理和模型部署平台 | [polyaxon/polyaxon](https://github.com/polyaxon/polyaxon) | 3.5k | 5M+ |
+| DVC | 版本控制 | 数据版本控制和机器学习实验管理工具 | [iterative/dvc](https://github.com/iterative/dvc) | 12.2k | 15M+ |
+| Ray | 分布式框架 | 用于构建分布式机器学习应用的框架 | [ray-project/ray](https://github.com/ray-project/ray) | 28.5k | 50M+ |
+| Feast | 特征存储 | 机器学习特征存储，支持线上和线下特征管理 | [feast-dev/feast](https://github.com/feast-dev/feast) | 4.2k | 5M+ |
+
+#### 🗣️ 自然语言处理
+
+| 名称 | 类型 | 应用介绍 | 开源地址 | GitHub Stars | Docker Pulls |
+|------|------|----------|-----------|--------------|---------------|
+| Hugging Face | NLP平台 | 最流行的自然语言处理模型库和平台，提供数千个预训练模型 | [huggingface/transformers](https://github.com/huggingface/transformers) | 115k | 200M+ |
+| spaCy | NLP框架 | 工业级的自然语言处理库，支持多种语言和任务 | [explosion/spaCy](https://github.com/explosion/spaCy) | 27.5k | 100M+ |
+| NLTK | NLP工具包 | 自然语言处理的经典Python库，提供多种文本处理功能 | [nltk/nltk](https://github.com/nltk/nltk) | 12.8k | 50M+ |
+| Rasa | 对话系统 | 开源的对话AI框架，用于构建聊天机器人和语音助手 | [RasaHQ/rasa](https://github.com/RasaHQ/rasa) | 16.5k | 100M+ |
+| Gensim | 文本分析 | 主题建模和文档相似性分析库，适用于大规模文本处理 | [RaRe-Technologies/gensim](https://github.com/RaRe-Technologies/gensim) | 14.2k | 20M+ |
+| FastText | 文本分类 | Facebook开发的高效文本分类和词向量库 | [facebookresearch/fastText](https://github.com/facebookresearch/fastText) | 24.8k | 10M+ |
+| StanfordNLP | NLP工具包 | 斯坦福大学开发的自然语言处理工具包，支持多语言 | [stanfordnlp/stanza](https://github.com/stanfordnlp/stanza) | 6.8k | 5M+ |
+| AllenNLP | NLP平台 | 基于PyTorch的自然语言处理研究库 | [allenai/allennlp](https://github.com/allenai/allennlp) | 11.5k | 10M+ |
+| Flair | NLP框架 | 简单易用的NLP框架，专注于序列标注和文本分类 | [flairNLP/flair](https://github.com/flairNLP/flair) | 13.2k | 5M+ |
+
+#### 👁️ 计算机视觉
+
+| 名称 | 类型 | 应用介绍 | 开源地址 | GitHub Stars | Docker Pulls |
+|------|------|----------|-----------|--------------|---------------|
+| OpenCV | 视觉库 | 最流行的计算机视觉库，支持多种图像处理和视觉算法 | [opencv/opencv](https://github.com/opencv/opencv) | 72.5k | 500M+ |
+| Detectron2 | 目标检测 | Facebook开发的目标检测和分割框架，基于PyTorch | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | 27.8k | 50M+ |
+| YOLO | 目标检测 | 实时目标检测系统，速度快且准确率高 | [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | 45.2k | 100M+ |
+| MMDetection | 视觉工具箱 | OpenMMLab开发的目标检测工具箱，支持多种检测算法 | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | 25.8k | 20M+ |
+| DeepLabCut | 姿态估计 | 用于动物姿态估计的深度学习工具箱 | [DeepLabCut/DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) | 3.8k | 5M+ |
+| EasyOCR | 文字识别 | 支持80多种语言的OCR系统，使用简单 | [JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR) | 19.5k | 30M+ |
+| Tesseract OCR | 文字识别 | Google开发的OCR引擎，支持多种语言和格式 | [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | 52.8k | 200M+ |
+| Deepface | 人脸分析 | 轻量级的人脸识别和分析库，支持多种深度学习模型 | [serengil/deepface](https://github.com/serengil/deepface) | 8.5k | 10M+ |
+| ImageAI | 视觉AI | 简单易用的计算机视觉Python库，支持图像预测和检测 | [OlafenwaMoses/ImageAI](https://github.com/OlafenwaMoses/ImageAI) | 7.8k | 5M+ |
+
+#### 🔧 AI开发工具
+
+| 名称 | 类型 | 应用介绍 | 开源地址 | GitHub Stars | Docker Pulls |
+|------|------|----------|-----------|--------------|---------------|
+| TensorFlow | 深度学习框架 | Google开发的端到端开源机器学习平台 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 178k | 1B+ |
+| PyTorch | 深度学习框架 | Facebook开发的灵活深度学习框架，研究友好 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | 72.5k | 500M+ |
+| Jupyter | 交互式开发 | 支持多种编程语言的交互式计算环境 | [jupyter/docker-stacks](https://github.com/jupyter/docker-stacks) | 7.8k | 1B+ |
+| Streamlit | 应用开发 | 快速构建和分享数据科学和机器学习应用的框架 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | 28.5k | 100M+ |
+| Gradio | 界面构建 | 为机器学习模型快速创建用户界面的Python库 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | 21.2k | 50M+ |
+| ONNX | 模型交换 | 开放神经网络交换格式，支持多框架模型转换 | [onnx/onnx](https://github.com/onnx/onnx) | 16.8k | 100M+ |
+| TensorRT | 推理优化 | NVIDIA开发的高性能深度学习推理优化器 | [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT) | 8.5k | 200M+ |
+| Weights & Biases | 实验跟踪 | 机器学习实验跟踪和可视化工具 | [wandb/wandb](https://github.com/wandb/wandb) | 6.2k | 50M+ |
+| DVC | 数据版本控制 | 用于机器学习项目的数据和模型版本控制系统 | [iterative/dvc](https://github.com/iterative/dvc) | 12.2k | 15M+ |
+
 ### 📽️ 媒体管理
 #### 🎬 影音服务器
 
@@ -373,64 +446,6 @@
 | Filebeat | 日志采集 | 轻量级的日志文件采集器，是Elastic Beat家族的一部分 | [elastic/beats](https://github.com/elastic/beats) | 11.8k | 300M+ |
 | SigNoz | 可观测平台 | 开源的应用性能监控和可观测性平台，替代Datadog的开源方案 | [SigNoz/signoz](https://github.com/SigNoz/signoz) | 15.2k | 5M+ |
 | GoAccess | 日志分析 | 实时Web日志分析器和交互式查看器，支持终端和浏览器界面 | [allinurl/goaccess](https://github.com/allinurl/goaccess) | 16.4k | 10M+ |
-
-
-### 🧠 AI应用
-#### 🤖 机器学习
-
-| 名称 | 类型 | 应用介绍 | 开源地址 | GitHub Stars | Docker Pulls |
-|------|------|----------|-----------|--------------|---------------|
-| MLflow | 模型管理 | 开源的机器学习生命周期平台，支持实验跟踪和模型部署 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | 15.8k | 100M+ |
-| Kubeflow | ML平台 | 基于Kubernetes的机器学习工具包，用于模型开发和部署 | [kubeflow/kubeflow](https://github.com/kubeflow/kubeflow) | 13.2k | 50M+ |
-| TensorFlow Serving | 模型服务 | TensorFlow官方的模型部署系统，支持模型版本管理 | [tensorflow/serving](https://github.com/tensorflow/serving) | 5.8k | 500M+ |
-| Seldon Core | 推理引擎 | 生产级机器学习模型部署平台，支持多种框架 | [SeldonIO/seldon-core](https://github.com/SeldonIO/seldon-core) | 3.8k | 20M+ |
-| BentoML | 模型部署 | 用于构建和部署机器学习服务的框架 | [bentoml/BentoML](https://github.com/bentoml/BentoML) | 5.2k | 10M+ |
-| Polyaxon | ML平台 | 机器学习实验管理和模型部署平台 | [polyaxon/polyaxon](https://github.com/polyaxon/polyaxon) | 3.5k | 5M+ |
-| DVC | 版本控制 | 数据版本控制和机器学习实验管理工具 | [iterative/dvc](https://github.com/iterative/dvc) | 12.2k | 15M+ |
-| Ray | 分布式框架 | 用于构建分布式机器学习应用的框架 | [ray-project/ray](https://github.com/ray-project/ray) | 28.5k | 50M+ |
-| Feast | 特征存储 | 机器学习特征存储，支持线上和线下特征管理 | [feast-dev/feast](https://github.com/feast-dev/feast) | 4.2k | 5M+ |
-
-#### 🗣️ 自然语言处理
-
-| 名称 | 类型 | 应用介绍 | 开源地址 | GitHub Stars | Docker Pulls |
-|------|------|----------|-----------|--------------|---------------|
-| Hugging Face | NLP平台 | 最流行的自然语言处理模型库和平台，提供数千个预训练模型 | [huggingface/transformers](https://github.com/huggingface/transformers) | 115k | 200M+ |
-| spaCy | NLP框架 | 工业级的自然语言处理库，支持多种语言和任务 | [explosion/spaCy](https://github.com/explosion/spaCy) | 27.5k | 100M+ |
-| NLTK | NLP工具包 | 自然语言处理的经典Python库，提供多种文本处理功能 | [nltk/nltk](https://github.com/nltk/nltk) | 12.8k | 50M+ |
-| Rasa | 对话系统 | 开源的对话AI框架，用于构建聊天机器人和语音助手 | [RasaHQ/rasa](https://github.com/RasaHQ/rasa) | 16.5k | 100M+ |
-| Gensim | 文本分析 | 主题建模和文档相似性分析库，适用于大规模文本处理 | [RaRe-Technologies/gensim](https://github.com/RaRe-Technologies/gensim) | 14.2k | 20M+ |
-| FastText | 文本分类 | Facebook开发的高效文本分类和词向量库 | [facebookresearch/fastText](https://github.com/facebookresearch/fastText) | 24.8k | 10M+ |
-| StanfordNLP | NLP工具包 | 斯坦福大学开发的自然语言处理工具包，支持多语言 | [stanfordnlp/stanza](https://github.com/stanfordnlp/stanza) | 6.8k | 5M+ |
-| AllenNLP | NLP平台 | 基于PyTorch的自然语言处理研究库 | [allenai/allennlp](https://github.com/allenai/allennlp) | 11.5k | 10M+ |
-| Flair | NLP框架 | 简单易用的NLP框架，专注于序列标注和文本分类 | [flairNLP/flair](https://github.com/flairNLP/flair) | 13.2k | 5M+ |
-
-#### 👁️ 计算机视觉
-
-| 名称 | 类型 | 应用介绍 | 开源地址 | GitHub Stars | Docker Pulls |
-|------|------|----------|-----------|--------------|---------------|
-| OpenCV | 视觉库 | 最流行的计算机视觉库，支持多种图像处理和视觉算法 | [opencv/opencv](https://github.com/opencv/opencv) | 72.5k | 500M+ |
-| Detectron2 | 目标检测 | Facebook开发的目标检测和分割框架，基于PyTorch | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | 27.8k | 50M+ |
-| YOLO | 目标检测 | 实时目标检测系统，速度快且准确率高 | [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | 45.2k | 100M+ |
-| MMDetection | 视觉工具箱 | OpenMMLab开发的目标检测工具箱，支持多种检测算法 | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | 25.8k | 20M+ |
-| DeepLabCut | 姿态估计 | 用于动物姿态估计的深度学习工具箱 | [DeepLabCut/DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) | 3.8k | 5M+ |
-| EasyOCR | 文字识别 | 支持80多种语言的OCR系统，使用简单 | [JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR) | 19.5k | 30M+ |
-| Tesseract OCR | 文字识别 | Google开发的OCR引擎，支持多种语言和格式 | [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | 52.8k | 200M+ |
-| Deepface | 人脸分析 | 轻量级的人脸识别和分析库，支持多种深度学习模型 | [serengil/deepface](https://github.com/serengil/deepface) | 8.5k | 10M+ |
-| ImageAI | 视觉AI | 简单易用的计算机视觉Python库，支持图像预测和检测 | [OlafenwaMoses/ImageAI](https://github.com/OlafenwaMoses/ImageAI) | 7.8k | 5M+ |
-
-#### 🔧 AI开发工具
-
-| 名称 | 类型 | 应用介绍 | 开源地址 | GitHub Stars | Docker Pulls |
-|------|------|----------|-----------|--------------|---------------|
-| TensorFlow | 深度学习框架 | Google开发的端到端开源机器学习平台 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 178k | 1B+ |
-| PyTorch | 深度学习框架 | Facebook开发的灵活深度学习框架，研究友好 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | 72.5k | 500M+ |
-| Jupyter | 交互式开发 | 支持多种编程语言的交互式计算环境 | [jupyter/docker-stacks](https://github.com/jupyter/docker-stacks) | 7.8k | 1B+ |
-| Streamlit | 应用开发 | 快速构建和分享数据科学和机器学习应用的框架 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | 28.5k | 100M+ |
-| Gradio | 界面构建 | 为机器学习模型快速创建用户界面的Python库 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | 21.2k | 50M+ |
-| ONNX | 模型交换 | 开放神经网络交换格式，支持多框架模型转换 | [onnx/onnx](https://github.com/onnx/onnx) | 16.8k | 100M+ |
-| TensorRT | 推理优化 | NVIDIA开发的高性能深度学习推理优化器 | [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT) | 8.5k | 200M+ |
-| Weights & Biases | 实验跟踪 | 机器学习实验跟踪和可视化工具 | [wandb/wandb](https://github.com/wandb/wandb) | 6.2k | 50M+ |
-| DVC | 数据版本控制 | 用于机器学习项目的数据和模型版本控制系统 | [iterative/dvc](https://github.com/iterative/dvc) | 12.2k | 15M+ |
 
 ### 📝 文档协作
 #### 📄 在线文档
