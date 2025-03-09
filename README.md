@@ -1,5 +1,7 @@
 # Awesome Docker [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[中文](README.md) | [English](README_EN.md)
+
 这是一个Docker资源集合，旨在帮助开发者、运维人员和技术团队更好地使用Docker技术。本项目涵盖了从入门教程到高级实践的全方位资源，包括官方文档、管理工具、安全指南、最佳实践等。无论您是Docker初学者还是经验丰富的专家，都能在这里找到有价值的工具和参考资料，助力提升容器化开发和部署效率。
 
 ## 目录
