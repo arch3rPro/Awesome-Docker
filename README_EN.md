@@ -4,7 +4,7 @@
 
 This is a collection of Docker resources designed to help developers, operators, and technical teams better use Docker technology. This project covers a full range of resources from introductory tutorials to advanced practices, including official documentation, management tools, security guides, best practices, etc. Whether you are a Docker beginner or an experienced expert, you can find valuable tools and references here to help improve the efficiency of containerized development and deployment.
 
-![Banner](./banner.webp)
+![Banner](./banner.png)
 
 ## Table of contents
 
